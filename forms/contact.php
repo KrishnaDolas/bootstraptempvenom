@@ -23,13 +23,7 @@
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];
 
-$contact->smtp = array(
-  SecureToken : "39a1c793-d5b7-4a3f-a79c-201c036677b6",
-  'host' => 'dolas8085@gmail.com',
-    'username' => 'kdolas99@gmail.com',
-    'password' => 'krishna4442',
-    'port' => '587'
-  );
+
   
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
