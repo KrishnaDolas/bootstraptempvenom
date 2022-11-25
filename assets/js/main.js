@@ -4,19 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-<script>
-  function.contact{
-Email.send({
-    SecureToken : "39a1c793-d5b7-4a3f-a79c-201c036677b6",
-    To : 'kdolas99@gmail.com',
-    From : "dolas8085@gmail.com",
-    Subject : "This is the test",
-    Body : "this is a testing "
-}).then(
-  message => alert(message)
-)
-}
-</script>
+
 (function() {
   "use strict";
 
